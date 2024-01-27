@@ -1,0 +1,87 @@
+{
+  "info": {
+    "name": "",
+    "includeInfoRcon": "",
+    "description": "",
+    "replyContent": "",
+    "error": "",
+    "embed": {
+      "color": "",
+      "title": "",
+      "description": "",
+      "fields": []
+    }
+  },
+  "help": {
+    "name": "",
+    "description": "",
+    "embed": {
+      "color": "",
+      "title": "",
+      "description": "",
+      "fields": [
+        {"name": "", "value": ""},
+        {"name": "", "value": ""},
+        {"name": "", "value": ""},
+        {"name": "", "value": ""},
+        {"name": "", "value": ""},
+        {"name": "", "value": ""},
+        {"name": "", "value": ""},
+        {"name": "", "value": ""},
+        {"name": "", "value": ""}
+      ]
+    }
+  },
+  "onlinePlayers": {
+    "name": "",
+    "description": "",
+    "listPlayers": "",
+    "error": "",
+    "embed": {
+      "color": "",
+      "title": "",
+      "description": ""
+    }
+  },
+  "save": {
+    "name": "",
+    "description": "",
+    "replyContent": "",
+    "error": ""
+  },
+  "broadcast": {
+    "name": "",
+    "description": "",
+    "inputStringDescription": "",
+    "replyContent": "",
+    "error": ""
+  },
+  "shutdown": {
+    "name": "",
+    "description": "",
+    "inputIntegerDescription": "",
+    "inputStringDescription": "",
+    "replyContent": "",
+    "error": ""
+  },
+  "exit": {
+    "name": "",
+    "description": "",
+    "replyContent": "",
+    "error": ""
+  },
+  "kick": {
+    "name": "",
+    "description": "",
+    "inputStringDescription": "",
+    "replyContent": "",
+    "error": ""
+  },
+  "ban": {
+    "name": "",
+    "description": "",
+    "inputStringDescription": "",
+    "replyContent": "",
+    "error": ""
+  }
+}

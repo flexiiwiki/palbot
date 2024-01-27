@@ -1,0 +1,89 @@
+{
+  "info": {
+    "name": "info",
+    "includeInfoRcon": "true",
+    "description": "Get server information",
+    "error": "There was an error while fetching server information.",
+    "embed": {
+      "color": "Greyple",
+      "title": "Server Info",
+      "description": "Important server information :3",
+      "fields": [
+        {"name": "SERVER BACKUP EVERY 30 MINUTES", "value": " ", "inline": "false"},
+        {"name": "SERVER IP", "value": "0.0.0.0:8211", "inline": "true"}
+      ]
+    }
+  },
+  "help": {
+    "name": "help",
+    "description": "type /help for help!",
+    "embed": {
+      "color": "Greyple",
+      "title": "Help Command",
+      "description": "Hello and welcome to the help command!",
+      "fields": [
+        {"name": "/broadcast  (word)", "value": "broadcast message to the server - only works with one word right now"},
+        {"name": "/onlineplayers", "value": "view list of players currently online"},
+        {"name": "/info", "value": "view important server information"},
+        {"name": "/bara", "value": "reads as written"},
+        {"name": "/save", "value": "save the server world in its current state"},
+        {"name": "/ban  (steam id)", "value": "ban player using steamid"},
+        {"name": "/kick  (steam id)", "value": "kick player using steamid"},
+        {"name": "/shutdown (seconds) (messageText)", "value": "shutdown the server with countdown and broadcast in chat"},
+        {"name": "/exit", "value": "shutdown the server with no warning"}
+      ]
+    }
+  },
+  "onlinePlayers": {
+    "name": "onlineplayers",
+    "description": "Show current online players!",
+    "listPlayers": "true",
+    "error": "There was an error while fetching player information",
+    "embed": {
+      "color": "Greyple",
+      "title": "Online Players",
+      "description": "Players currently online (${playercount}/8)"
+    }
+  },
+  "save": {
+    "name": "save",
+    "description": "Saves server world in current state",
+    "replyContent": "World saved!",
+    "error": "There was an error while saving"
+  },
+  "broadcast": {
+    "name": "broadcast",
+    "description": "Broadcasts message to the server!",
+    "inputStringDescription": "Broadcast message text",
+    "replyContent": "Broadcasted: ${messageText}",
+    "error": "There was an error broadcasting this message!"
+  },
+  "shutdown": {
+    "name": "shutdown",
+    "description": "Shuts the server down with a countdown, broadcasting with a message",
+    "inputIntegerDescription": "Seconds",
+    "inputStringDescription": "Broadcast message text",
+    "replyContent": "Successfully sent shutdown request!",
+    "error": "There was an error shutting down!"
+  },
+  "exit": {
+    "name": "exit",
+    "description": "Shuts the server down immediately",
+    "replyContent": "Sent exit request!",
+    "error": "There was an error sending exit request"
+  },
+  "kick": {
+    "name": "kick",
+    "description": "Kicks player with steam ID",
+    "inputStringDescription": "Steam ID",
+    "replyContent": "Player ${playerId} has been kicked successfully.",
+    "error": "Error sending kick request"
+  },
+  "ban": {
+    "name": "ban",
+    "description": "Bans player with steam ID",
+    "inputStringDescription": "Steam ID",
+    "replyContent": "Player ${playerId} has been banned successfully.",
+    "error": "Error sending ban request"
+  }
+}

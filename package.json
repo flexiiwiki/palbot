@@ -1,0 +1,17 @@
+{
+  "name": "palbot",
+  "version": "0.0.1",
+  "description": "A Discord bot that interfaces with a PalWorld server via RCON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "flexiiwiki",
+  "repository": "github:flexiiwiki/palbot",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.1",
+    "rconify": "^1.0.1"
+  }
+}

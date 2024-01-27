@@ -1,0 +1,5 @@
+node_modules
+.env
+command-overrides.json
+commands/utility/bara.js
+commands/utility/unban.js.tmp
